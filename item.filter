@@ -46,10 +46,10 @@ ItemDisplay[key]: %GRAY%key
 ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>23]:
 
 //Essences
-ItemDisplay[tes]: %NAME% %GRAY%[Andariel]
-ItemDisplay[ceh]: %NAME% %GRAY%[Mephisto]
-ItemDisplay[bet]: %NAME% %GRAY%[Diablo]
-ItemDisplay[fed]: %NAME% %GRAY%[Baal]
+ItemDisplay[tes]: %NAME% %GRAY%[Andariel]%WHITE%%MAP%
+ItemDisplay[ceh]: %NAME% %GRAY%[Mephisto]%WHITE%%MAP%
+ItemDisplay[bet]: %NAME% %GRAY%[Diablo]%WHITE%%MAP%
+ItemDisplay[fed]: %NAME% %GRAY%[Baal]%WHITE%%MAP%
 
 //Uber Keys
 ItemDisplay[pk1]: %NAME% %GRAY%[Countess]
@@ -231,12 +231,12 @@ ItemDisplay[cm3 TABSK42>0]: %PURPLE%Dru Ele Skiller %GRAY%[%ILVL%]
 ItemDisplay[cm3 TABSK48>0]: %PURPLE%Trap Skiller %GRAY%[%ILVL%]
 
 //All Charms
-ItemDisplay[cm3 !ID ILVL>90]: %NAME% %PURPLE%°°° %ORANGE%[%WHITE%%ILVL%%ORANGE%]
-ItemDisplay[cm1 !ID]: %NAME% %PURPLE%° %GRAY%[%ILVL%]
-ItemDisplay[cm2 !ID]: %NAME% %PURPLE%°° %GRAY%[%ILVL%]
-ItemDisplay[cm3 !ID]: %NAME% %PURPLE%°°° %GRAY%[%ILVL%]
-ItemDisplay[cm3 ILVL>90]: %NAME% %ORANGE%[%WHITE%%ILVL%%ORANGE%]
-ItemDisplay[cm1 OR cm2 OR cm3]: %NAME% %GRAY%[%ILVL%]
+ItemDisplay[cm3 !ID ILVL>90]: %NAME% %PURPLE%°°° %ORANGE%[%WHITE%%ILVL%%ORANGE%]%WHITE%%MAP%
+ItemDisplay[cm1 !ID]: %NAME% %PURPLE%° %GRAY%[%ILVL%]%WHITE%%MAP%
+ItemDisplay[cm2 !ID]: %NAME% %PURPLE%°° %GRAY%[%ILVL%]%WHITE%%MAP%
+ItemDisplay[cm3 !ID]: %NAME% %PURPLE%°°° %GRAY%[%ILVL%]%WHITE%%MAP%
+ItemDisplay[cm3 ILVL>90]: %NAME% %ORANGE%[%WHITE%%ILVL%%ORANGE%]%WHITE%%MAP%
+ItemDisplay[cm1 OR cm2 OR cm3]: %NAME% %GRAY%[%ILVL%]%WHITE%%MAP%
 
 //Rings and amulets
 ItemDisplay[(rin OR amu) RARE !ID]: %TAN%»» %YELLOW%%NAME%%TAN% ««
@@ -300,6 +300,8 @@ ItemDisplay[uar UNI !ID]: %RED%»» »» %GREEN%½ %PURPLE%%NAME%%RED% «« ««
 ItemDisplay[(amu OR xtb OR uar OR ci3 OR 7qr OR uth) SET !ID]: %DGREEN%»» »» %GREEN%%NAME%%DGREEN% «« ««
 
 //RuneWord Bases
+//Harmony
+ItemDisplay[lbw (NMAG OR RW) (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Spirit Swords
 ItemDisplay[(crs OR bsd OR lsd) (ETH AND (NMAG OR RW)) SOCK=4]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(crs OR bsd OR lsd) (NMAG OR RW) SOCK=4]: %NAME% %TAN%[%SOCKETS%]
@@ -315,6 +317,10 @@ ItemDisplay[WP12 SK84>2 (SOCK=0 OR SOCK=2) (NMAG OR RW)]: %GRAY%[%WHITE%3bsr%GRA
 ItemDisplay[WP12 SK83>2 (SOCK=0 OR SOCK=2) (NMAG OR RW)]: %GRAY%[%WHITE%3d%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WP12 SK92>2 (SOCK=0 OR SOCK=2) (NMAG OR RW)]: %GRAY%[%WHITE%3pn%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WP12 SK93>2 (SOCK=0 OR SOCK=2) (NMAG OR RW)]: %GRAY%[%WHITE%3bst%GRAY%] %NAME% %TAN%[%SOCKETS%]
+// CE
+ItemDisplay[WP12 SK74>2 (SOCK=0 OR SOCK=2) (NMAG OR RW)]: %GRAY%[%WHITE%3d%GRAY%] %NAME% %TAN%[%SOCKETS%]
+// Convocoation
+ItemDisplay[WP12 SK79>2 (SOCK=0 OR SOCK=2) (NMAG OR RW)]: %GRAY%[%WHITE%3d%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Memory
 ItemDisplay[(cst OR bst OR 8cs OR 8bs OR 6cs OR 6bs) (NMAG OR RW) SK58>2 (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%3es%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(wst OR 8ws OR 6ws) (NMAG OR RW) SK58>2 SOCK=0 (!INF AND !SUP)]: %GRAY%[%WHITE%3es%GRAY%] %NAME% %TAN%[%SOCKETS%]

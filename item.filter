@@ -301,7 +301,7 @@ ItemDisplay[(amu OR xtb OR uar OR ci3 OR 7qr OR uth) SET !ID]: %DGREEN%»» »»
 
 //RuneWord Bases
 //Harmony
-ItemDisplay[lbw (NMAG OR RW) (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+//ItemDisplay[lbw (NMAG OR RW) (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Spirit Swords
 ItemDisplay[(crs OR bsd OR lsd) (ETH AND (NMAG OR RW)) SOCK=4]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(crs OR bsd OR lsd) (NMAG OR RW) SOCK=4]: %NAME% %TAN%[%SOCKETS%]
@@ -318,9 +318,9 @@ ItemDisplay[WP12 SK83>2 (SOCK=0 OR SOCK=2) (NMAG OR RW)]: %GRAY%[%WHITE%3d%GRAY%
 ItemDisplay[WP12 SK92>2 (SOCK=0 OR SOCK=2) (NMAG OR RW)]: %GRAY%[%WHITE%3pn%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WP12 SK93>2 (SOCK=0 OR SOCK=2) (NMAG OR RW)]: %GRAY%[%WHITE%3bst%GRAY%] %NAME% %TAN%[%SOCKETS%]
 // CE
-ItemDisplay[WP12 SK74>2 (SOCK=0 OR SOCK=2) (NMAG OR RW)]: %GRAY%[%WHITE%3d%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP12 SK74>1 (SOCK=0 OR SOCK=2) (NMAG OR RW)]: %GRAY%[%WHITE%3d%GRAY%] %NAME% %TAN%[%SOCKETS%]
 // Convocoation
-ItemDisplay[WP12 SK79>2 (SOCK=0 OR SOCK=2) (NMAG OR RW)]: %GRAY%[%WHITE%3d%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP12 SK79>1 (SOCK=0 OR SOCK=2) (NMAG OR RW)]: %GRAY%[%WHITE%3d%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Memory
 ItemDisplay[(cst OR bst OR 8cs OR 8bs OR 6cs OR 6bs) (NMAG OR RW) SK58>2 (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%3es%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(wst OR 8ws OR 6ws) (NMAG OR RW) SK58>2 SOCK=0 (!INF AND !SUP)]: %GRAY%[%WHITE%3es%GRAY%] %NAME% %TAN%[%SOCKETS%]
